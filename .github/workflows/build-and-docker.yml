@@ -48,8 +48,8 @@ jobs:
 
       # Step 6: Build the Docker image
       - name: Build Docker Image
-        run: docker build -t your-dockerhub-username/your-app-name:latest .
+        run: docker build -t nirajdhoot08/spring-thymleaf:latest .
 
       # Step 7: Push Docker Image to Docker Hub (Optional if needed)
       - name: Push Docker Image
-        run: docker push your-dockerhub-username/your-app-name:latest
+        run: docker push nirajdhoot08/spring-thymleaf:latest
